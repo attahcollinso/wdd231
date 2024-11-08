@@ -1,0 +1,31 @@
+
+:root {
+  --font-text: "Roboto", system-ui;
+  --body-text: "Arial san serif";
+  --color-primary: #19195b;
+  --color-secondary: #96461e;
+  --color-touch: #000000 ;
+  --color-white: #ffffff;
+  --color-background: #f5f5dc;
+  --color-red: #ff0000;
+  --body-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  line-height: 1.5;
+  font-family: var(--font-text);
+  color: var(--body-color);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: o;
+}
