@@ -1,0 +1,8 @@
+@media only screen and (min-width: 600px) {
+  .float {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+    
+  }
+}  
