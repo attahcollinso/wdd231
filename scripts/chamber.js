@@ -127,5 +127,7 @@ courses.forEach(course => {
   const div = document.createElement('div');
   div.classList.add('course');
   const h3 = document.createElement('h3');
-  h3.innerHTML = `<em>${coure.subject}<`
+  h3.innerHTML = `<em>${coure.subject}</em> ${course.number}`;
+  div.appendChild(h3);
+  coursesElement.appendChild(div);
 })

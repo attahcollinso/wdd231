@@ -15,51 +15,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* body {
-  display: block;
-  line-height: 1.5;
-  font-family: var(--font-text);
-  color: var(--body-color);
-} */
-
-/* body {
-  display: grid;
-  grid-gap: 1 rem;
-  /* grid-template-columns: repeat (auto-fit, minmax(150px, 1fr));
- } */
-
-
-/* html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-} */
  
 body {
   background-color: var(--color-background);
 } 
-
-/* main {
-  display: grid;
-  background-color: var(--color-background);
-  grid-template-columns: 1fr; */ */
-  /* grid-gap:0.5rem;
-  padding: 1rem;
-} 
-/* 
-aside, main, .container {
-  max-width: 760px;
-  margin: 0, auto;
-} */
-
-/* figure {
-  display: block;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-} */
 
 .card img {
   width: 150px;
@@ -90,9 +49,9 @@ aside, main, .container {
  
 nav {
   display: flex;
-  /* flex-direction: row; */
+  flex-wrap: wrap;
   background-color: var(--color-touch);
-  /* align-items: center; */
+  align-items: center;
   justify-content: center; 
   justify-items: center;
   padding: 20px;
@@ -116,9 +75,8 @@ nav {
 .web h3 {
   background-color: var(--color-primary);
   justify-content: center;
-  align-items: center;
   justify-items: center;
-  align-self: center;
+  align-items: center;
   padding: 20px;
   color: var(--color-white);
   border-radius: 8px;
@@ -139,19 +97,10 @@ nav {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* justify-items: center; */
-  /* align-self: center; */
 }
 
 .card {
-  /* padding: 20px; */
   background-color: var(--color-white);
-  /* height: 300px; */
-  /* justify-content: center; */
-  /* align-content: center; */
-  /* align-items: center; */
   margin: 0 40px;
 } 
 
@@ -161,36 +110,14 @@ nav {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* justify-items: center; */
-  /* padding: 20px; */
-  /* justify-content: center; */
-  /* justify-items: center; */
-  /* align-items: center; */
-  /* align-self: center; */
-  /* align-content: center; */
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .card ul li {
   margin: 0 40px;
 }  
-
-
-
-/* main-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  padding: 20px;
-  background-color: white;
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
-/* .card h2{
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
 
 .me {
   display: flex;
@@ -199,42 +126,9 @@ nav {
   margin-bottom: 20px;
 }
 
-
-.me img {
-  width: 100px;
-  height: 150px;
-  border-radius: 8px;
-}
-
-.me p {
-  flex: 1;
-  margin: 0;
-}
-
 hr {
   margin: 20px;
 }
-
-
-.aside h2 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  background-color: darkblue;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  border-radius: 10px 10px 0 0;
-}
-
-/* .card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  background-color: red;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  border-radius: 10px 10px 0 0;
-} */
 
 .card ul li {
   margin-bottom: 10px;
