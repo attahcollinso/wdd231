@@ -111,7 +111,7 @@ body {
 .filters {
   display: grid;
   grid-auto-flow: column;
-  grid-column: 1fr 1 fr 1fr;
+  grid-column: 1fr 1fr 1fr 1fr;
   margin: 0 100px;
   padding: 0 10px;
 
