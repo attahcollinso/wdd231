@@ -1,9 +1,50 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 760px) {
   .float {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 2fr 1fr;
     
+  }
+
+  body {
+    justify-self: center;
+  }
+
+  header span{
+    display: none;
+  }
+
+  #navBar {
+    display: flex;
+  }
+
+  #navBar a {
+    display: flex;
+    color: var(--color-white);
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  
+  #navBar.display {
+  display: flex;
+  flex-direction: row;
+  }
+
+  #navBar a:hover {
+    background-color: unset;
+    text-decoration: solid;
+  } 
+
+  #navBar a:hover {
+    background-color: bisque;
+    color: black;
+  }
+
+  #courses {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
 }  

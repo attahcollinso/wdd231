@@ -4,25 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>wdd 231 | Attah Collins</title>
+        <meta name="description" content="A responsive web layout of my homepage for the chamber of commerce website with data referencing my linkedin page, github profile and directory on the web called the chamber of commerce.">
+        <meta name="author" content="Attah Collins Onyebuchi">
         <link rel="stylesheet" href="styles/chamber.css">
         <link rel="stylesheet" href="styles/chamber-large.css">
         <script defer="" src="scripts/chamber.js"></script>
+        <script defer="" src="scripts/date.js"></script>
+        <script defer="" src="scripts/navigation.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet"> 
+
     </head>
     
     <body>
         <header>
             <img src="/images/passport.webp" alt="Attah Collins smilling" width="100">
             <h1>Attah Collins</h1>
+            <div>
+                <span id="btnBurguer">☰</span>
+            </div>
         </header>
              
-    <nav> 
-        <div class="nav-container">
-            <a href="#" class="current">Home</a>
+        <nav id="navBar"> 
+            <a href="#" class="active">Home</a>
             <a href="#">Chamber</a>
             <a href="https://github.com/attahcollinso">Github Profile</a>
             <a href="https://www.linkedin.com/in/collins-o-attah-980807289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
-        </div>
-    </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fafa-bars"></i></a>
+        </nav>
               
         <main>
             <div class="float">
@@ -37,7 +47,7 @@
             
                 <section class="card">
                     <h2>Rivers, Nigeria</h2>
-                    <img src="/images/Eagle1.webp" alt="Eagle of Rivers" width="150">
+                    <img src="/images/Eagle1.webp" alt="Eagle of Rivers" width="200">
                     <figcaption>Eagle of Rivers</figcaption>
                 </section>
             </div>
@@ -45,26 +55,25 @@
             <div class="web">
                 <h3>Web and Computer Programming Certificate</h3>
                 <div class="filters">
-                    <button id="all">All</button>
+                    <button id="All">All</button>
                     <button id="CSE">CSE</button>
                     <button id="WDD">WDD</button>
-                    </div>
-                    <hr>
                 </div>
+                <hr>
+            </div>
                 
-                <div id="courses">
-                
-                    </div>
-                </main>
-                <footer>
-                    <!-- <p><span id="copyright"></span><span> &#128293; Attah collins &#128293;</span><span class="vcenter">Port Harcourt, Nigeria <img src="https://www.iconfinder.com/icons/2634375/ensign_flag_nation_nigeria_icon#svg" alt="Nigeria flag" loading="lazy"></span></p> 
+            <div id="courses"></div>
+        </main>
+        <footer class="footer">
+           
+            <p><span id="copyright"></span><span> &#128293; Attah collins &#128293;</span><span class="vcenter">Port Harcourt, Nigeria 
             
-        <p id="lastModified" class="highlight"></p> -->
+            <div>
+            <img src="/images/naijaflag.svg" alt="Nigeria flag" loading="lazy" width="100"></span></p>
+            </div> 
+            <p id="lastModified" class="highlight"></p>
 
-        <p>&copy;<span id="currentyear"></span> &#128293; Attah collins &#128293; Port Harcourt, Nigeria</p> 
-                      
-        <p>Last Modified: <span id="lastModified"></span></p>
-    </footer>
+        </footer>
 
-</body>
+    </body>
 </html>
