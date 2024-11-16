@@ -6,6 +6,7 @@
         <title>wdd 231 | Attah Collins</title>
         <meta name="description" content="A responsive web layout of my homepage for the chamber of commerce website with data referencing my linkedin page, github profile and directory on the web called the chamber of commerce.">
         <meta name="author" content="Attah Collins Onyebuchi">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/chamber.css">
         <link rel="stylesheet" href="styles/chamber-large.css">
         <script defer="" src="scripts/chamber.js"></script>
@@ -26,14 +27,22 @@
             </div>
         </header>
              
-        <nav id="navBar"> 
-            <a href="#" class="active">Home</a>
-            <a href="#">Chamber</a>
-            <a href="https://github.com/attahcollinso">Github Profile</a>
-            <a href="https://www.linkedin.com/in/collins-o-attah-980807289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fafa-bars"></i></a>
-        </nav>
-              
+        <nav id="navBar">
+            <ul> 
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/chamber/directory.html">Chamber</a>
+                </li>
+                <li>
+                    <a href="https://github.com/attahcollinso">Github Profile</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/collins-o-attah-980807289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>              
         <main>
             <div class="float">
                 <section class="card">
@@ -53,7 +62,9 @@
                     </figure>
                 </div>
             </div>
-            
+
+            <div class="main-courses">
+                        
             <div class="web">
                 <h3>Web and Computer Programming Certificate</h3>
                 <div class="filters">
@@ -61,10 +72,13 @@
                     <button id="CSE">CSE</button>
                     <button id="WDD">WDD</button>
                 </div>
-                <hr>
             </div>
+            <hr>
                 
-            <div id="courses"></div>
+            <div id="courses-content"></div>
+
+            <div id="credits-required"></div>
+            </div>
         </main>
         <footer class="footer">
            
@@ -79,3 +93,101 @@
 
     </body>
 </html>
+
+
+
+<!-- 
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="WDD 231 - Elaine Henson - Week 1 Course Home Page">
+    <meta name="author" content="Elaine Henson">
+    <!-- Social Media META Tags -->
+    <!-- <meta property="og:title" content="Elaine's Coursework Homepage">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Abu_dhabi_skylines_2014.jpg/1280px-Abu_dhabi_skylines_2014.jpg">
+    <meta property="og:url" content="https://laineych.github.io/wdd231/">
+    <title>Elaine Henson Home Page</title> -->
+
+    <!-- FAVICON -->
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <!-- STYLES -->
+    <!-- <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css"> -->
+    <!-- SCRIPTS -->
+    <!-- <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/getdates.js" defer></script> -->
+    <!--FONTS-->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Young+Serif&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="header-img" src="images/profile.webp" width="400" height="461" alt="Photo of Elaine">
+        <h1 id="header-title">Elaine Henson</h1> -->
+        <!--button for hamburger menu, to be visible only on mobile view-->
+        <!-- <button id="menu" aria-label="menu"></button> -->
+        <!--navigation-->
+        <!-- <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="./chamber/home.html">Chamber</a>
+            <a href="https://github.com/LaineyCH/wdd231" target="_blank">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/elaine-henson" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main id="main-cards"> -->
+        <!--Coursework Card-->
+        <!-- <section class="card" id="coursework-card">
+            <h2>Course Work</h2>
+            <div id="coursework">
+                <ul id="work-list">
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                </ul>
+            </div>
+        </section> -->
+
+        <!--Place Card-->
+        <!-- <section class="card" id="place-card">
+            <h2>Abu Dhabi, UAE</h2>
+            <img src="images/camel.webp" alt="Photo of Camel on Sand Dunes in Abu Dhabi" width="500" height="375">
+            <p>Arabian Camel in Liwa</p>
+        </section> -->
+
+        <!-- Certificate Card -->
+        <!-- <section class="card" id="certificate-card">
+            <h2>Web and Computer Programming Certificate</h2> -->
+            <!--buttons-->
+            <!-- <div id="courses-buttons">
+                <button id="all-button">ALL</button>
+                <button id="cse-button">CSE</button>
+                <button id="wdd-button">WDD</button>
+            </div>
+            <div id="courses-content"></div>
+            <div id="credits-required"></div>
+        </section>
+    </main>
+
+    <footer> -->
+        <!--Get current year and display with copyright information-->
+        <!-- <p id="copyright">&#169; <span id="currentyear"></span> &nbsp; &nbsp; <span id="camel" class="mirror">&#128042;
+        </span> &nbsp; &nbsp; Elaine Henson &nbsp; &nbsp; &#128042; &nbsp; &nbsp; Abu Dhabi</p> -->
+
+        <!--Get the date that the document was last modified and display-->
+        <!-- <p>This webpage was last modified on <span id="lastmodified"></span></p>
+    </footer>
+</body>
+
+</html>  -->

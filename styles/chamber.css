@@ -3,11 +3,14 @@
   --font-text: "Roboto", system-ui;
   --body-text: "Arial san serif";
   --color-primary: #19195b;
-  --color-active: #d5ef2a;
+  --color-active: #7a4545;
   --color-touch: #000000 ;
   --color-white: #ffffff;
   --color-background: #e8e8e0;
   --body-color: beige;
+  --dark-green: #02514e;
+  --light-green: #76D7C4;
+  --sand-color: #efd096;
 }
 
 * {
@@ -18,6 +21,7 @@
  
 body {
   background-color: var(--color-background);
+  margin: 8px;
 } 
 
 .card img {
@@ -37,11 +41,11 @@ body {
 
  header {
   display: flex;
+  gap:30px;
   background-color: var(--color-primary);
   color: var(--color-white);
   padding: 20px;
   justify-content: center;
-  justify-items: center;
   align-items: center;
   margin: 0 30px; 
   margin-top: 20px;
@@ -53,7 +57,7 @@ body {
 
  header img {
   width: 70px;
-  height: 100px;
+  height: auto;
   border-radius: 3px;
  }
 
@@ -62,14 +66,13 @@ body {
   margin: 20px;
  }
 
+#navBar ul a {
+  margin-left: 50px;
+}
 
 #navBar {
-  display: none;
   background-color: var(--color-touch);
-  align-items: center;
-  justify-content: center; 
-  justify-items: center;
-  padding: 20px;
+  justify-content: space-around;
   margin: 0 30px; 
 } 
 
@@ -78,29 +81,37 @@ body {
   flex-direction: column;
 }
 
-#navBar a {
+#navBar ul a{
   display: flex;
   color: var(--color-white);
   justify-content: space-between;
-  justify-content: center;
-  margin: 0 20px;
   padding: 10px;
 } 
 
-.active {
+#navBar ul a:hover {
+  background-color: bisque;
+  color: black;
+}
+
+#navBar li {
+  list-style-type: none;
+}
+
+#navBar li a:is(:link, :active, :visited) {
+  text-decoration: none;
+}
+
+
+#navBar a:is(:link, :active, :visited).active {
   background-color: var(--color-active);
-} 
+}
 
 .web {
   display: grid;
-  margin: 0 60px;
 }
 
 .web h3 {
   background-color: var(--color-primary);
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
   text-align: center;
   padding: 20px;
   color: var(--color-white);
@@ -109,12 +120,9 @@ body {
 }
 
 .filters {
-  display: grid;
-  grid-auto-flow: column;
-  grid-column: 1fr 1fr 1fr 1fr;
-  margin: 0 100px;
-  padding: 0 10px;
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .filters button{
@@ -123,6 +131,7 @@ body {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  text-align: center;
 }
 
 #courses {
@@ -144,9 +153,6 @@ body {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
 }
 
 .card ul li {
@@ -154,7 +160,7 @@ body {
 }  
 
 hr {
-  margin: 20px;
+  margin: 0 50px;
 }
 
 .card ul li {
@@ -162,11 +168,32 @@ hr {
   
 }
 
-.card ul li a {
-  text-decoration: underline;
-  color: darkblue;
-  transition: color 0.3s;
-} 
+.main-courses {
+  background-color: var(--color-white);
+  margin: 20px 60px;
+  border-radius: 10px;
+}
+
+.course-div {
+  background-color: var(--color-active);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem 50px;
+  min-width: 30px;
+}
+
+#credits-required {
+  text-align: center;
+  padding: 1rem
+}
+
+button:hover {
+  background-color: var(--sand-color);
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+}
 
 .footer {
   background-color: var(--color-primary);

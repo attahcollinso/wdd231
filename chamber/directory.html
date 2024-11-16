@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Port Harcourt City Chamber of Commerce</title>
+    <meta name="description" content="A responsive web layout of my directory for the chamber of commerce website with data referencing my linkedin page, github profile and directory on the web called the chamber of commerce directory.">
+    <meta name="author" content="Attah Collins Onyebuchi">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta property="og:title" content="Port Harcourt city Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://attacollinso.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://attacollinso.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="Footer.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <script src="scripts/directory.js" defer></script>
+    <script src="/scripts/date.js" defer></script>
+    <script src="scripts/directorynav.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header-top">
+            <div id="heading-w-img">
+                <img id="header-img" src="images/logo.svg" width="800" alt="Port Harcourt City Chamber of Commerce Logo" loading="lazy">
+                <div id="heading">
+                    <h1 id="heading-1">Port Harcourt City</h1>
+                    <h1 id="heading-2">Chamber of Commerce</h1>
+                </div>
+            </div>
+        </div>
+    
+        <button id="ham-button" aria-label="menu"></button>
+    
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="page-title">&#9135; &nbsp; BUSINESS DIRECTORY &nbsp; &#9135;</h2>
+        <div id="directory-view">
+            <button id="grid-button">
+                <img class="button-symbol" src="images/Table.svg" alt="grid view" width="100" loading="lazy">
+            </button>
+            <button id="table-button">
+                <img class="button-symbol" src="images/grid.svg" alt="grid view" width="100" loading="lazy">
+            </button>
+        </div>
+        <div id="cards"></div>
+        <table id="table-view"></table>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <p class="bold"><img class="crane" src="images/Footer.ico" alt="chamber Logo" width="16" loading="lazy"> &nbsp;Port Harcourt City Chamber of Commerce,</p>
+            <p>Joy Plaza,</p>
+            <p>#203 igbo etche Road.</p>
+            <p>contact@citychamberofcommerce.ng</p>
+            <p>+234 906 915 3943</p>
+        </div>
+        <div class="socials-logos">
+            <img class="socials" src="images/facebookicon.webp" alt="FaceBook" width="100" loading="lazy" >
+            <img class="socials" src="images/twittericon.webp" alt="Twitter" width="100" loading="lazy" >
+            <img class="socials" src="images/instagramicon.webp" alt="Instagram" width="100" loading="lazy">
+        </div>
+        <div id="info">
+            <p><span id="copyright"></span><span> &#128293;WDD 231 | Attah collins &#128293;</span><span>Port Harcourt City Chamber of Commerce.</span></p>
+            <p id="lastModified" class="highlight"></p>
+            
+        </div>
+    </footer>
+</body>
+</html>

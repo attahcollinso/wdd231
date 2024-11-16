@@ -1,0 +1,124 @@
+
+
+  [
+    {
+      "companyname" : "Second2None LTD",
+      "ownername" : "Attah Collins",
+      "address" : {
+        "number" : "2",
+        "street" : "Emmanuel Close",
+        "area" : "Pipeline Rumukwurusi",
+        "city" : "Port Harcourt"
+        },
+      "phone" : "+234 803 772 8338",
+      "url" : "www.second2none.com",
+      "img" : "secondnone.svg",
+      "membership": 2,
+      "category" : "General services"
+    },
+    {
+      "companyname" : "Makas Beauty",
+      "ownername" : "Chiamaka Eucharia",
+      "address" : {
+        "number" : "4",
+        "street" : "Emmanuel Close",
+        "area" : "Rumukwurusi Pipeline",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 909 555 2346",
+      "url" : "www.Amyfashionbeauty.com",
+      "img" : "makasbeauty.svg",
+      "membership": 2,
+      "category" : "Fashion"
+    },
+    {
+      "companyname" : "RM's Foundation",
+      "ownername" : "Elder Onyebuchi",
+      "address" : {
+        "number" : "8",
+        "street" : "Igbo Etche Road",
+        "area" : "Rumukwurusi",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 707 555 5982",
+      "url" : "www.returnedwithhonor.com",
+      "img" : "ngo.svg",
+      "membership": 1,
+      "category" : "NGO"
+    },
+    {
+      "companyname" : "Attaco Stores LTD",
+      "ownername" : "Onyee Collins",
+      "address" : {
+        "number" : "21",
+        "street" : "7 Up Market",
+        "area" : "Oil Mill",
+        "city" : "Rumukwurusi"
+      },
+      "phone" : "+234 803 453 6743",
+      "url" : "www.attacofoods.com",
+      "img" : "attaco.svg",
+      "membership": 3,
+      "category" : "Super market"
+    },
+    {
+      "companyname" : "Ukay Globals",
+      "ownername" : "Attah Eucharia",
+      "address" : {
+        "number" : "7",
+        "street" : "Emmanuel close",
+        "area" : "Rumukwurusi Pipeline",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 806 678 4567",
+      "url" : "www.ukayglobals.com",
+      "img" : "ukayglobal.svg",
+      "membership": 2,
+      "category" : "shipping and Logistics"
+    },
+    {
+      "companyname" : "Yam Farms LTD",
+      "ownername" : "Jerome JJ",
+      "address" : {
+        "number" : "32",
+        "street" : "Umuebule 4 Road",
+        "area" : "Umuebule 4",
+        "city" : "Igbo etche"
+      },
+      "phone" : "+234 703 634 8745",
+      "url" : "www.yamproduction.com",
+      "img" : "yamfarm.svg",
+      "membership": 3,
+      "category" : "Production"
+    },
+    {
+      "companyname" : "EzinwaTech",
+      "ownername" : "Ezinwanne Daniel",
+      "address" : {
+        "number" : "9",
+        "street" : "Eleme Road",
+        "area" : "Elelenwa",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 806 396 6785",
+      "url" : "www.trusteditservices.com",
+      "img" : "ezinwa.svg",
+      "membership": 3,
+      "category" : "Technology"
+    },
+    {
+      "companyname" : "Oma Transport",
+      "ownername" : "Ezinwanne Daniel",
+      "address" : {
+        "number" : "9",
+        "street" : "Eleme Road",
+        "area" : "Elelenwa",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 806 396 6785",
+      "url" : "www.trusteditservices.com",
+      "img" : "ukayglobal.svg",
+      "membership": 3,
+      "category" : "Technology"
+    }
+  ]

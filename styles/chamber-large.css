@@ -5,7 +5,7 @@
     grid-template-columns: 2fr 1fr;
     
   }
-
+  
   body {
     justify-self: center;
   }
@@ -13,38 +13,26 @@
   header span{
     display: none;
   }
-
+  
   #navBar {
     display: flex;
   }
 
-  #navBar a {
+  #navBar ul {
     display: flex;
-    color: var(--color-white);
-    justify-content: space-between;
-    justify-content: center;
-    margin: 0 20px;
     padding: 10px;
   }
 
   
-  #navBar.display {
+  #navBar ul.display {
   display: flex;
   flex-direction: row;
   }
 
-  #navBar a:hover {
-    background-color: unset;
-    text-decoration: solid;
-  } 
+  #courses-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: 1fr;
 
-  #navBar a:hover {
-    background-color: bisque;
-    color: black;
-  }
-
-  #courses {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-
-}  
+} 
+} 

@@ -1,7 +1,7 @@
 
 const allButton = document.querySelector('#All');
 const cseButton = document.querySelector('#CSE');
-const wddButton = document.querySelector('#WDD');
+const wddButton = document.querySelector('#WDD')
 
 const courses = [
     {
@@ -107,7 +107,7 @@ function generate_courses(filterPhrase) {
         (course) =>
             `<div class="course-div completed-${course.completed}">${course.subject} ${course.number}</div>`
     );
-    document.getElementById("courses").innerHTML = htmlCourses.join('');
+    document.getElementById("courses-content").innerHTML = htmlCourses.join('');
     const {totalCredits, incompleteCredits} = filteredCourses.reduce(
         (acc, course) => {
             acc.totalCredits += course.credits;
