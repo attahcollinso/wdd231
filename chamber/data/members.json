@@ -18,7 +18,7 @@
     },
     {
       "companyname" : "Makas Beauty",
-      "ownername" : "Chiamaka Eucharia",
+      "ownername" : "Amaka Eucharia",
       "address" : {
         "number" : "4",
         "street" : "Emmanuel Close",
@@ -26,8 +26,8 @@
         "city" : "Port Harcourt"
       },
       "phone" : "+234 909 555 2346",
-      "url" : "www.Amyfashionbeauty.com",
-      "img" : "ngo.svg",
+      "url" : "www.Amyfashion.com",
+      "img" : "makasbeauty.svg",
       "membership": 2,
       "category" : "Fashion"
     },
