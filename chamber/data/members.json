@@ -17,21 +17,6 @@
       "category" : "General services"
     },
     {
-      "companyname" : "Makas Beauty",
-      "ownername" : "Amaka Eucharia",
-      "address" : {
-        "number" : "4",
-        "street" : "Emmanuel Close",
-        "area" : "Rumukwurusi Pipeline",
-        "city" : "Port Harcourt"
-      },
-      "phone" : "+234 909 555 2346",
-      "url" : "www.Amyfashion.com",
-      "img" : "makasbeauty.svg",
-      "membership": 2,
-      "category" : "Fashion"
-    },
-    {
       "companyname" : "RM's Foundation",
       "ownername" : "Elder Onyebuchi",
       "address" : {
