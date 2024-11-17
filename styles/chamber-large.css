@@ -16,14 +16,15 @@
   
   #navBar {
     display: flex;
+    align-items: center;
   }
 
   #navBar ul {
     display: flex;
+    flex-direction: row;
     padding: 10px;
   }
 
-  
   #navBar ul.display {
   display: flex;
   flex-direction: row;

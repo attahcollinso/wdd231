@@ -205,10 +205,9 @@
   
     } catch (error) {
       console.error('Error fetching data:', error);
-      throw error; // Re-throw the error   
-   //to handle it in the calling function
+      throw error; 
 
-   console.table(data.prophets); // temporary testing of data response   
+   console.table(data.prophets); 
     }
 
 getProphetData();

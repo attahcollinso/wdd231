@@ -66,15 +66,28 @@ body {
   margin: 20px;
  }
 
+ /* nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ } */
+
 #navBar ul a {
   margin-left: 50px;
 }
 
 #navBar {
+  display: none;
   background-color: var(--color-touch);
   justify-content: space-around;
-  margin: 0 30px; 
+  margin: 0 30px;
 } 
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #navBar.display {
   display: flex;
@@ -85,6 +98,7 @@ body {
   display: flex;
   color: var(--color-white);
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
 } 
 
@@ -95,15 +109,6 @@ body {
 
 #navBar li {
   list-style-type: none;
-}
-
-#navBar li a:is(:link, :active, :visited) {
-  text-decoration: none;
-}
-
-
-#navBar a:is(:link, :active, :visited).active {
-  background-color: var(--color-active);
 }
 
 .web {
@@ -175,12 +180,19 @@ hr {
 }
 
 .course-div {
-  background-color: var(--color-active);
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
   margin: 1rem 50px;
   min-width: 30px;
+}
+
+.course-div {
+  background-color: var(--color-active);
+}
+
+.course-div:nth-child(6){
+  background-color: var(--light-green);
 }
 
 #credits-required {
