@@ -146,7 +146,6 @@ nav ul {
 #courses {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 5px;
   place-items: center;
 }
 
@@ -187,8 +186,7 @@ hr {
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
-  margin: 1rem 50px;
-  min-width: 30px;
+  margin: 16px 50px;
 }
 
 .course-div {
