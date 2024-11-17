@@ -111,6 +111,10 @@ nav ul {
   list-style-type: none;
 }
 
+.active {
+  background-color: var(--dark-green);
+}
+
 .web {
   display: grid;
 }
