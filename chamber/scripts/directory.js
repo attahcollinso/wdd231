@@ -6,7 +6,7 @@ async function getMemberData() {
     try {
         const response = await fetch('data/members.json');
         if (!response.ok) {
-            throw new Error('Could not fetch member data');
+            throw new Error('Unable to fetch member data');
         }
         members = await response.json();
         members.sort((a, b) => {
@@ -20,7 +20,7 @@ async function getMemberData() {
         });
         displayMemberCards()
     } catch (error) {
-        console.error("Encountered error during fetch:", error);
+        console.error("Error fetching data:", error);
     }
 }
 
@@ -42,6 +42,7 @@ function displayMemberCards() {
         const urlP = document.createElement('p');
         const url = document.createElement('a');
 
+        
         companyName.textContent = `${member.companyname}`;
         card.setAttribute('class', 'card');
         image.setAttribute('src', `./images/${member.img}`);
@@ -57,10 +58,11 @@ function displayMemberCards() {
         if (index !== 0) {
             image.setAttribute('loading', 'lazy');
         }
-        image.setAttribute('width', '500');
-        image.setAttribute('height', '500');
+        image.setAttribute('width', '300');
+        image.setAttribute('height', 'auto');
         detailsDiv.setAttribute('class', 'details-div');
 
+        
         card.appendChild(companyName);
         card.appendChild(image);
         detailsDiv.appendChild(ownerName);
@@ -69,7 +71,8 @@ function displayMemberCards() {
         urlP.appendChild(url)
         detailsDiv.appendChild(urlP);
         card.appendChild(detailsDiv);
-
+        
+        
         cards.appendChild(card);
     })
 }

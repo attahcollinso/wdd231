@@ -14,7 +14,9 @@
       "url" : "www.second2none.com",
       "img" : "secondnone.svg",
       "membership": 2,
-      "category" : "General services"
+      "category" : "General services",
+      "offer": "10% discount",
+      "color": "ff345687"
     },
     {
       "companyname" : "RM's Foundation",
@@ -28,8 +30,9 @@
       "phone" : "+234 707 555 5982",
       "url" : "www.returnedwithhonor.com",
       "img" : "ngo.svg",
-      "membership": 1,
-      "category" : "NGO"
+      "membership": 2,
+      "category" : "NGO",
+      "offer": "Free Mentorship"
     },
     {
       "companyname" : "Attaco Stores LTD",
@@ -44,7 +47,10 @@
       "url" : "www.attacofoods.com",
       "img" : "attaco.svg",
       "membership": 3,
-      "category" : "Super market"
+      "category": "Super market",
+      "offer": "weekend discount sales",
+      "color": "cc345687"
+
     },
     {
       "companyname" : "Ukay Globals",
@@ -59,7 +65,9 @@
       "url" : "www.ukayglobals.com",
       "img" : "ukayglobal.svg",
       "membership": 2,
-      "category" : "shipping and Logistics"
+      "category" : "shipping and Logistics",
+      "offer": "door to door delivery",
+      "color": "ff345467"
     },
     {
       "companyname" : "Yam Farms LTD",
@@ -74,7 +82,9 @@
       "url" : "www.yamproduction.com",
       "img" : "yamfarm.svg",
       "membership": 3,
-      "category" : "Production"
+      "category" : "Production",
+      "offer": "free delivery",
+      "color":"ff345298"
     },
     {
       "companyname" : "EzinwaTech",
@@ -89,7 +99,9 @@
       "url" : "www.trusteditservices.com",
       "img" : "ezinwa.svg",
       "membership": 3,
-      "category" : "Technology"
+      "category" : "Technology",
+      "offer": "free SEO",
+      "color":"cc824687"
     },
     {
       "companyname" : "Oma Transport",
@@ -101,24 +113,45 @@
         "city" : "Port Harcourt"
       },
       "phone" : "+234 806 396 6785",
-      "url" : "www.trusteditservices.com",
-      "img" : "loco",
+      "url" : "www.omatransportltd.com",
+      "img" : "ukayglobal.svg",
       "membership": 3,
-      "category" : "Technology"
+      "category" : "Transportation",
+      "offer": "ludgage discount",
+      "color":"cc365617"
     },
     {
       "companyname" : "Omale Kitchen",
       "ownername" : "Ezinwanne Daniel",
       "address" : {
-        "number" : "9",
+        "number" : "16",
         "street" : "Eleme Road",
         "area" : "Elelenwa",
         "city" : "Port Harcourt"
       },
       "phone" : "+234 806 396 6785",
-      "url" : "www.trusteditservices.com",
-      "img" : "food",
+      "url" : "www.omalekitchen.com",
+      "img" : "yamfarm.svg",
       "membership": 3,
-      "category" : "Technology"
+      "category" : "Restaurant",
+      "offer":"free delivery",
+      "color": "ff231467"
+    },
+    {
+      "companyname" : "Amy Beauty",
+      "ownername" : "Chiamaka Amanda",
+      "address" : {
+        "number" : "7",
+        "street" : "Eleme Road",
+        "area" : "Elelenwa",
+        "city" : "Port Harcourt"
+      },
+      "phone" : "+234 806 396 6785",
+      "url" : "www.omalekitchen.com",
+      "img" : "ngo.svg",
+      "membership": 3,
+      "category" : "Restaurant",
+      "offer": "Midweek discount",
+      "color": "cc884187"
     }
   ]

@@ -4,51 +4,29 @@
         justify-self: center;
     }
 
-    #ham-button {
-        display: none;
-    }
-
     header {
-        grid-template-columns: 100%;
-    }
-
-    #heading-w-img {
-        grid-template-columns: auto auto;
-        justify-content: center;
-    }
-
-    #header-img {
-        max-width: 130px;
-    }
-
-    #heading {
-        margin-left: 0;
-        margin-top: 1.5rem;
-        line-height: 50px;
-    }
-
-    #heading-1 {
-        font-size: 3rem;
-    }
-
-    #heading-2 {
-        font-size: 1.5rem;
-    }
-
-    .nav-bar {
-        flex-direction: row;
-        background-color: transparent;
-        max-height: 80px;
-        opacity: 1;
-    }
-
-    .nav-bar a {
-        display: block;
-        flex: 1 1 100%;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 1.5rem;
-    }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      header nav {
+        display: flex;
+      }
+    
+      header nav a:hover {
+        background-color: unset;
+        text-decoration: solid;
+      } 
+    
+      header nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    
+      header span {
+        display: none;
+      }
 
     #cards {
         display: grid;

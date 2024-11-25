@@ -1,0 +1,142 @@
+@media screen and (min-width: 760px) {
+
+    body {
+        justify-content: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    header nav {
+      display: flex;
+    }
+  
+    header nav a:hover {
+      background-color: unset;
+      text-decoration: solid;
+    } 
+  
+    header nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    header span {
+      display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+  
+    main {
+      max-width: 1200px;
+      margin-inline: auto;
+    }
+  
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      display: flex;
+    }
+
+    .event-weather {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr 1.5fr;
+        grid-auto-flow: column;
+
+    }
+
+    #home {
+        display: grid;
+    }
+
+    h3, h4, h5 {
+        background-color: var(--color-touch);
+        color: var(--color-white);
+        padding: 10px;
+        font-size: larger;
+        text-align: left;
+    }
+
+    .circle-image img{
+        display: block;
+        background-color: var(--color-white);
+        border-color: var(--color-touch);
+        border-radius: 20px;
+     }
+
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        align-items: stretch;
+    }
+  
+    .newsletter-signup form {
+      display: inline-block;
+      align-items: center;
+      margin-top: 10px;    
+    }
+  
+    .team-members {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+    
+    .team-members figure {
+      text-align: center;
+    }
+    
+    .team-members img {
+      width: 200px; 
+      height: 250px;
+      margin-bottom: 10px;
+    } 
+  
+    .contact-form {
+      flex: 2;
+      padding-left: 20px;
+      width: 500px;
+    }
+  
+    .hide {
+      display: none;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 34% 32% 34%;
+    }
+
+    #contact {
+        text-align: right;
+    }
+
+    #info {
+        text-align: left;
+}
+
+#cards {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@keyframes scroll-back-and-forth {
+    0% {
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateX(-45%);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+} 
+}
