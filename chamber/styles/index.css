@@ -117,28 +117,10 @@ header nav a {
     display: flex;
 }
 
-h3, h4, h5 {
-    background-color: var(--color-touch);
-    color: var(--color-white);
-    padding: 10px;
-    font-size: larger;
-    text-align: center;
-}
 
 main h2 {
     color: var(--color-touch);
     padding-bottom: 20px;
-}
-
-#home {
-    display: block;
-    gap: 10px;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-.three, .four, .five {
-    background-color: rgb(217, 231, 231);
-    padding: 0 0 150px 0;
-    margin-bottom: 20px;
 }
 
 
@@ -199,44 +181,6 @@ main {
 .card p {
     text-align: center;
 }
-
-/* .details-div {
-    padding: 1rem;
-}
-
-#table-view {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-tr {
-    padding: 1rem;
-}
-
-tr:nth-child(even) {
-    background-color: white;
-}
-
-tr:nth-child(odd) {
-    background-color: var(--light-aqua);
-}
-
-td, th {
-    padding: 1rem;
-}
-
-table, thead, tbody, th, td, tr {
-    display: block;
-}
-
-td {
-    display: flex;
-    justify-content: center;
-}
-
-#table-view.hide, #cards.hide {
-    display: none !important;
-} */
 
 #directory-view {
     display: flex;
@@ -444,11 +388,28 @@ hr {
     transition: transform 0.3s, background-color 0.3s;
 }
 
+.action-call {
+    bottom: 0;
+    background-color: var(--sand);
+    color: black;
+    font-family: var(--font-page), sans-serif;
+    font-size: large;
+    /* padding: 0.8rem; */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
 #hero button{
     font-size: 1.5rem;
 }
 
 #call-to-action:hover {
+    background-color: var(--sun);
+    transform: scale(1.05);
+}
+
+.action-call:hover {
     background-color: var(--sun);
     transform: scale(1.05);
 }
@@ -565,7 +526,7 @@ hr {
     padding: 20px;
 }
 
-.card-info-card h2 {
+.card-info-card h3, .card-info-card h4, .card-info-card h5  {
     background-color: var(--color-touch);
     color: var(--color-white);
     margin: 20px;
