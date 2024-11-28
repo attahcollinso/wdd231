@@ -49,10 +49,6 @@
 
     }
 
-    #home {
-        display: grid;
-    }
-
     h3, h4, h5 {
         background-color: var(--color-touch);
         color: var(--color-white);
@@ -72,38 +68,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         align-items: stretch;
-    }
-  
-    .newsletter-signup form {
-      display: inline-block;
-      align-items: center;
-      margin-top: 10px;    
-    }
-  
-    .team-members {
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: row;
-    }
-    
-    .team-members figure {
-      text-align: center;
-    }
-    
-    .team-members img {
-      width: 200px; 
-      height: 250px;
-      margin-bottom: 10px;
-    } 
-  
-    .contact-form {
-      flex: 2;
-      padding-left: 20px;
-      width: 500px;
-    }
-  
-    .hide {
-      display: none;
     }
 
     footer {
@@ -127,16 +91,4 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
-@keyframes scroll-back-and-forth {
-    0% {
-        transform: translateX(0); 
-    }
-    50% {
-        transform: translateX(-45%);
-    }
-    100% {
-        transform: translateX(0); 
-    }
-} 
 }

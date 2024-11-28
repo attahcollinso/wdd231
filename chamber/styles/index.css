@@ -34,7 +34,6 @@ body {
 header {
     color: var(--color-white);
     background-color: var(--color-primary);
-    /* padding: 1.5rem; */
     font-family: var(--font-text);
   }
 
@@ -212,14 +211,12 @@ main {
   padding: 5px;
 }
 
-
 #call-to-action {
     bottom: 0;
     background-color: var(--sand);
     color: black;
     font-family: var(--font-page), sans-serif;
     font-size: large;
-    /* padding: 0.8rem; */
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, background-color 0.3s;
@@ -231,7 +228,6 @@ main {
     color: black;
     font-family: var(--font-page), sans-serif;
     font-size: large;
-    /* padding: 0.8rem; */
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, background-color 0.3s;
@@ -251,8 +247,6 @@ main {
     transform: scale(1.05);
 }
 
-/* ------------------------------------------------  LOGO REEL  ------------------------------------------------- */
-
 #cards {
     display: inline-block;
     overflow: hidden;
@@ -265,11 +259,10 @@ main {
 
 #cards .card {
     display: inline-block;
-    animation: scroll-back-and-forth 10s ease-in-out infinite;;
 }
 
 #cards .card img {
-    width: 150px;
+    width: 220px;
     height: 100px;
     margin: 0 3rem;
     display: inline-block;
@@ -278,20 +271,6 @@ main {
 #table-view {
     display: inline-block;
 }
-
-@keyframes scroll-back-and-forth {
-    0% {
-        transform: translateX(0); 
-    }
-    50% {
-        transform: translateX(-45%);
-    }
-    100% {
-        transform: translateX(0); 
-    }
-}
-
-/* ---------------------------------------------------- CARDS -------------------------------------------------- */
 
 .cards-section {
     display: flex;
@@ -315,13 +294,6 @@ main {
     max-width: 500px;
     min-height: 300px;
     flex: 1;
-}
-
-#membership-cards {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card h2 {
@@ -372,7 +344,6 @@ main {
     border-top-right-radius: 20px;
 }
 
-
 #results > h2 {
     background-color: var(--teal);
 }
@@ -397,7 +368,6 @@ tr:nth-child(even) {
     background-color: white;
 }
 
-/* Style for even rows */
 tr:nth-child(even) {
     background-color: var(--light-aqua);
 }
@@ -423,12 +393,9 @@ td {
     border: 0;
 }
 
-/* Hide cards or table depending on view selected (.hide class added in JS */
 #table-view.hide, #cards.hide {
     display: none !important;
 }
-
-/* ---------------------------------------------------  WEATHER  ------------------------------------------------- */
 
 #weather-main {
     display: grid;
@@ -498,7 +465,6 @@ figcaption {
     text-align: center;
 }
 
-/* default table layout for weather table */
 .conditions-table table {
     display: table;
 }
@@ -536,95 +502,10 @@ button:active {
     transform: scale(0.9);
 }
 
-/* scales the directory grid/list button symbols */
 .button-symbol {
     width: 50px;
     height: auto;
 }
-
-
-
-
-
-
-/* ----------------------------  Learn More Button on Membership Level cards ----------------------------- */
-/* .learn-more {
-    background-color: var(--light-aqua);
-    color: black;
-    font-family: var(--font-page), sans-serif;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.learn-more:hover {
-    background-color: var(--aqua);
-    color: black;
-} */
-
-/* ------------------------------------------------  MODAL  ---------------------------------------------- */
-/* dialog {
-    max-width: 400px;
-    border: 1px solid rgb(0 0 0 / 0.8);
-    box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
-    position: fixed; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden; 
-    border-radius: 11px;
-    font-family: var(--font-page), sans-serif;
-    padding-bottom: 1rem;
-}
-
-dialog h2 {
-    padding: 1rem 60px;
-    background-color: var(--teal);
-    color: white;
-    margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 1.8rem;
-}
-
-dialog > p {
-    padding: 1rem;
-}
-
-dialog::backdrop {
-    background: rgb(0 0 0 / 0.5);
-}
-
-dialog button {
-    position: absolute;
-    top: 12px;
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background: white;
-    color: black;
-    margin: 0;
-    padding: 0.5rem 1rem;
-    outline: none;
-    box-shadow: none;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-dialog button:hover {
-    background-color: transparent;
-    color: black;
-    font-weight: 700;
-    border-radius: 10px;
-}
-
-.modal-table tr, .modal-table td {
-    background-color: white;
-}  */
 
 footer {
     grid-row: 3 / 4;
@@ -661,4 +542,3 @@ footer {
 .mirror {
     transform: scale(-1, 1);
 }
-

@@ -58,7 +58,7 @@ function displayMemberCards() {
         if (index !== 0) {
             image.setAttribute('loading', 'lazy');
         }
-        image.setAttribute('width', '300');
+        image.setAttribute('width', '500');
         image.setAttribute('height', 'auto');
         detailsDiv.setAttribute('class', 'details-div');
 
