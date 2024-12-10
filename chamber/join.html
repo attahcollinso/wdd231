@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Port Harcourt Chamber of Commerce Join page</title>
+    <meta name="description" content="A responsive web layout of my Join Page form for the chamber of commerce website with thankyou.html referencing page of the web called chamber of commerce Join Page.">
+    <meta name="author" content="Attah Collins Onyebuchi">
+    <meta property="og:title" content="Port Harcourt city Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://attacollinso.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://attacollinso.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="Footer.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/indexdirectory.js" defer></script>
+    <script src="/scripts/date.js" defer></script>
+    <script src="scripts/indexnav.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/activenav.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="logo-div">
+                <div >
+                <img src="images/logo.svg" alt="logo image of Port Harcourt chamber of Commerce"
+                width="60" height="auto" loading="lazy">
+                </div>
+                <div class="heading">
+                    <h1>Port Harcourt</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="images/halfcircle.svg" alt="shaded circle icon" width="30" height="auto" loading="lazy">
+                </div>
+                <span id="btnBurguer">☰</span>
+            </div>
+        </div>
+        <div>
+            <button id="ham-button" aria-label="menu"></button>
+        <nav id="navBar">
+          <a href="index.html">Home</a>
+          <a href="directory.html">Directory</a>
+          <a href="join.html">Join</a>
+          <a href="discover.html">Discover</a>
+        <div class="circle-image">
+            <img src="images/halfcircle.svg" alt="shaded circle icon" width="20" height="auto" loading="lazy">
+        </div>
+        </nav>
+        </div>       
+    </header>
+
+    <main id="join-main">
+        <form method="get" action="thankyou.html" class="aform">
+            <h2 id="form-heading">Membership Application</h2>
+            <fieldset>
+                <label class="input-title">firstname:
+                    <input type="text" id="first-name" name="first-name" title="Enter your first name" aria-label="Enter your first name"
+                       autocomplete="given-name" required>
+                </label>
+
+                <label class="input-title">lastname:
+                    <input type="text" id="last-name" name="last-name" title="Enter your last name" aria-label="Enter your last name"
+                       autocomplete="family-name" required>
+                </label>
+
+                <label class="input-title">organizational title:
+                    <input type="text" id="org-title" name="org-title" title="Enter your organizational title (alpha characters, hyphens, and spaces only, minimum 7 characters)"
+                       aria-label="Enter your organizational title (alpha characters, hyphens, and spaces only, minimum 7 characters)"
+                       autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+                </label>
+
+                <label class="input-title">email Address:
+                <input type="email" id="email" name="email" title="Enter a valid email address" aria-label="Enter a valid email address"
+                       autocomplete="email" placeholder="example@example.com" required>
+                </label>
+
+                <label class="input-title">mobile Phone:
+                <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" aria-label="Enter your mobile phone number"
+                        autocomplete="tel" required>
+                </label>
+
+                <label class="input-title">business Name:
+                    <input type="text" id="org-name" name="org-name" title="Enter your business/organization's name" aria-label="Enter your business/organization's name"
+                        autocomplete="organization" required>
+                </label>
+
+                <label class="input-title">Membership Level:
+                    <select id="membership" name="membership" aria-label="Select membership level" required>
+                        <option value="" aria-label="select product" selected disabled>Select a membership... &#9662;</option>
+                        <option value="Non-Profit">Non Profit Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label class="input-title">Business Details: <br>
+                    <textarea id="description" name="description" rows="4" cols="50"
+                            title="Provide a description of your business or organization" aria-label="Provide a description of your business or organization">
+                    </textarea>
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <input type="submit" id="submit-button" value="Apply for Membership" aria-label="Apply for Membership">
+            </fieldset>
+        </form>
+
+        <section id="membership-cards" class="cards-section">
+            <h2 id="levels-h2">Membership Levels</h2>
+            <section class="card" id="np-card">
+                <h2>Non Profit Membership Level</h2>
+                <button id="np-info" class="learn-more bold">Learn More</button>
+            </section>
+            <section class="card" id="bronze-card">
+                <h2>Bronze Membership Level</h2>
+                <button id="bronze-info" class="learn-more bold">Learn More</button>
+            </section>
+            <section class="card" id="silver-card">
+                <h2>Silver Membership Level</h2>
+                <button id="silver-info" class="learn-more bold">Learn More</button>
+            </section>
+            <section class="card" id="gold-card">
+                <h2>Gold Membership Level</h2>
+                <button id="gold-info" class="learn-more bold">Learn More</button>
+            </section>
+        </section>
+        <dialog id="membership-info"></dialog>
+    </main>
+     
+    <footer>
+        <div id="contact">
+            <p class="bold"><img class="crane" src="images/Footer.ico" alt="chamber Logo" width="16" height="auto" loading="lazy"> &nbsp;</p>
+            <p class="bold">Port Harcourt Chamber of Commerce</p>
+            <p>Joy Plaza</p>
+            <p>#203 Igbo Etche Road</p>
+            <p>contact@citychamberofcommerce.ng</p>
+            <p>+234 906 915 3943</p>
+        </div>
+        <div class="socials-logos">
+            <img class="socials" src="images/facebookicon.webp" alt="FaceBook" width="100" height="auto" loading="lazy" >
+            <img class="socials" src="images/twittericon.webp" alt="Twitter" width="100" height="auto" loading="lazy" >
+            <img class="socials" src="images/instagramicon.webp" alt="Instagram" width="100" height="auto" loading="lazy">
+        </div>
+        <div id="info">
+            <p>WDD231 Class Project</p>
+            <p>Attah Collins</p>
+            <p><span id="copyright"></span> Port Harcourt City Chamber of Commerce
+            <p id="lastModified" class="highlight"></p>
+            
+        </div>
+    </footer>
+ 
+</body>
+</html>
