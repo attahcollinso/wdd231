@@ -96,6 +96,11 @@
     padding-bottom: 1rem;
 }
 
+.card img {
+  width: 200px;
+  height: 150px;
+}
+
 .cards-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -152,10 +157,6 @@ th {
   grid-column: 1 / 2;
 }
 
-#photo-cards {
-  grid-column: 2 / 3;
-  padding-left: 0.5rem;
-}
 
 #photo-cards .card:nth-child(8) {
   display: flex;
@@ -216,28 +217,6 @@ th {
 .cards-section {
   grid-template-columns: repeat(3, 1fr);
 }
-
-#discover-main {
-  grid-template-columns: 25% 75%;
-}
-
-#spotlight-cards.cards-section .card:nth-child(3) {
-  display: flex;
-  flex-direction: column;
-}
-
-#photo-cards .card:nth-child(n+9) {
-  display: flex;
-  flex-direction: column;
-}
-
-#call-to-action {
-  bottom: 15px;
-  right: 200px;
-  padding: 1.2rem;
-  font-size: 1.2rem;
-}
-
 
 #discover-main {
   display: grid;

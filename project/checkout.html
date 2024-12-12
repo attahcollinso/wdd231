@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Commerce</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+            <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
+            <li><a href="checkout.html" class="nav-link active" data-page="checkout">Checkout</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <main>
+        <form id="checkout-form" onsubmit="processOrder(event)">
+            <h2>Shipping Details</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <h2>Payment Method</h2>
+            <label><input type="radio" name="payment" value="Credit Card" required> Credit Card</label>
+            <label><input type="radio" name="payment" value="PayPal" required> PayPal</label>
+            
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Commerce</p>
+    </footer>
+
+    <script>
+        function processOrder(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+            const payment = document.querySelector('input[name="payment"]:checked').value;
+
+            localStorage.setItem('orderDetails', JSON.stringify({ name, address, payment }));
+            window.location.href = 'confirmation.html';
+        }
+    </script>
+</body>
+</html>

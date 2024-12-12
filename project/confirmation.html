@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation | E-Commerce</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+    </header>
+
+    <main>
+        <section id="order-summary">
+            <h2>Your Order</h2>
+            <div id="order-details"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Commerce</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const orderDetails = JSON.parse(localStorage.getItem('orderDetails'));
+            const orderDiv = document.getElementById('order-details');
+            if (orderDetails) {
+                orderDiv.innerHTML = `
+                    <p>Name: ${orderDetails.name}</p>
+                    <p>Address: ${orderDetails.address}</p>
+                    <p>Payment Method: ${orderDetails.payment}</p>
+                `;
+            } else {
+                orderDiv.innerHTML = '<p>No order found.</p>';
+            }
+        });
+    </script>
+</body>
+</html>

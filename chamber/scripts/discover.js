@@ -40,8 +40,8 @@ function displayPhotoCards() {
         if (index !== 0) {
             image.setAttribute('loading', 'lazy');
         }
-        image.setAttribute('width', '400');
-        image.setAttribute('height', '400');
+        image.setAttribute('width', '600');
+        image.setAttribute('height', '600');
         image.setAttribute('alt', `Photo of ${photo.name}`);
         caption.textContent = photo.caption;
         caption.setAttribute('class', 'caption');

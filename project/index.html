@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Attahco Stores</title>
-        <meta name="description" content="A brief descriptive webpage that describes the proposed site plan of an e-commerce store.">
-        <meta name="author" content="Attah Collins Onyebuchi">
-        <meta property="og:title" content="Port Harcourt city Chamber of Commerce">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="https://attacollinso.github.io/wdd231/chamber/images/logo.webp">
-        <meta property="og:url" content="https://attacollinso.github.io/wdd231/chamber/directory.html">
-        <link rel="icon" href="Footer.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="styles/project.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Commerce</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+</head>
 <body>
-    <header class="heading">navigation goes here</header>
-    <main>
-        <h1>Project Site Plan.</h1>
-        <h2>1. Site name</h2>
-        <p>Attahco Stores: This name Attah is from the igala people which means head or leader. Attahco Stores is comming to be a disciple leader in the online space.</p>
-        <h3>2. Site purpose:</h3>
-        <p>The purpose of this e-commerce site is to provide online products and services that people that visit the site can order for and have it delivered to their door steps. It will also aim at gaining the trust of people to online transactions.</p>
-        <h4>3. Scenarios:</h4>
-        <p>These are anticipated questions from the visitors of this site. Some of the scenarios include; 1. What services do you offer? 2. Do you also have a physical store where someone can visit?</p>
-        <h5>4. Color Schema:</h5>
-        <p>I will make use of four color schmes. They include blue, beige, and white. The blue will be used at the heading and footer. The beige will be used as the body background color. The white color will be used at the navigation text and paragraph text.</p>
-        <h6>5. Typography:</h6>
-        <p>I will make us of "Roboto:wght@100;400;500,bold" font weight throughtout the site. </p>
-        <h6>6. Wireframe</h6>
-        <div class="img">
-            <figure class="destop">
-                <img src="images/destopwireframe.jpg" alt="wider view Wireframe" width="300" height="200"
-                loading="lazy">
-                <figcaption>Fig.1 wider view</figcaption>
-                </figure>
-                <figure class="mobile">
-                    <img src="images/Mobilewireframe.jpg" alt="mobile view Wireframe" width="150" height="300" loading="lazy">
-                    <figcaption>Fig.2 Mobile view</figcaption>
-                </figure>
-            </div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-link active" data-page="home">Home</a></li>
+            <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
+            <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <p>Explore amazing products</p>
+    </header>
+
+    <main>
+        <section id="weather">
+            <h2>Weather Forecast</h2>
+            <div id="weather-info">Loading...</div>
+        </section>
+
+        <section id="cta">
+            <h2>Shop Now</h2>
+            <button onclick="window.location.href='products.html'">View Products</button>
+        </section>
     </main>
-    <footer class="footer">copyright and social handles go here</footer>
-    
+
+    <footer>
+        <p>&copy; 2024 E-Commerce</p>
+    </footer>
+
+    <script src="js/products.js" type="module"></script>
+    <script src="js/modal.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/confirm.js" type="module"></script>
+    <script src="js/weather.js" type="module"></script>
+
 </body>
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Commerce</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+</head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="products.html" class="nav-link active" data-page="products">Products</a></li>
+                <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
+            </ul>
+        </nav>
+    
+        <header>
+            <h1>Products</h1>
+        </header>
+    
+        <main>
+            <section id="products">
+                <h2>Available Products</h2>
+                <div id="product-list">Loading...</div>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 E-Commerce</p>
+        </footer>
+    
+        <div id="product-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modal-details"></div>
+            </div>
+        </div>
+
+    <script src="js/products.js" type="module"></script>
+
+    </body>
+    </html>
+    

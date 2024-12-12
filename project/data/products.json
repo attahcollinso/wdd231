@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "casual shoe",
+        "price": "$10",
+        "image": "https://www.temu.com/ul/kuiper/un9.html?subj=goods-un&_bg_fs=1&_p_jump_id=894&_x_vst_scene=adg&goods_id=601099588823133&sku_id=17592493542035&adg_ctx=a-8a58cc93~c-f674e667~f-d0e0fa71&_x_ads_sub_channel=shopping&_p_rfs=1&_x_ns_prz_type=-1&_x_ns_sku_id=17592493542035&_x_ns_gid=601099588823133&mrk_rec=1&_x_ads_channel=google&_x_gmc_account=5481560149&_x_login_type=Google&_x_ads_account=3874959639&_x_ads_set=21939599743&_x_ads_id=169534425966&_x_ads_creative_id=722445221160&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAsOq6BhDuARIsAGQ4-zgbM8_hXttdADUitkyddyWFyMFpYJCsKUOWCzTwtKWrgquuMitm0fkaAn4wEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=5481560149-17592493542035&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=Cj4KCAiAjeW6BhAVEi4AA1P8o51RPxe_qmTJsQdVSuIsDceA3r3G5Ckv5fxfKfvWRoReeCxkLCbkAgQPGgISOQ&_x_ns_gbraid=0AAAAAo4mICFNdM6TfU6ufm7N8r_vq8Jae&_x_ns_targetid=pla-313166616608&gad_source=1&gclid=Cj0KCQiAsOq6BhDuARIsAGQ4-zgbM8_hXttdADUitkyddyWFyMFpYJCsKUOWCzTwtKWrgquuMitm0fkaAn4wEALw_wcB&is_back=1",
+        "description": "soft leather."
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "price": "$20",
+        "image": "https://via.placeholder.com/150",
+        "description": "This is Product 2."
+    }
+]
