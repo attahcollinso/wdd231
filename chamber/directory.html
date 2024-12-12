@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,17 +14,65 @@
     <meta property="og:url" content="https://attacollinso.github.io/wdd231/chamber/directory.html">
     <link rel="icon" href="Footer.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles/directory.css">
-    <link rel="stylesheet" href="styles/directory-large.css">
-    <script src="scripts/directory.js" defer></script>
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/indexdirectory.js" defer></script>
+    <script src="scripts/cards.js" defer></script>
+    <script src="scripts/activenav.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <script src="/scripts/date.js" defer></script>
-    <script src="scripts/directorynav.js" defer></script>
+    <script src="scripts/indexnav.js" defer></script>
+    <link rel="stylesheet" href="styles/index.css"> 
+    <link rel="stylesheet" href="styles/index-large.css">
+     <!-- <link rel="stylesheet" href="styles/directory.css"> -->
+    <!-- <link rel="stylesheet" href="styles/directory-large.css">  -->
+    <!-- <script src="scripts/indexdirectory.js" defer></script> -->
+    <!-- <script src="/scripts/date.js" defer></script> -->
+    <!-- <script src="scripts/indexnav.js" defer></script> -->
+    <!-- <script src="scripts/join.js" defer></script> -->
+    <!-- <script src="scripts/activenav.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="/scripts/date.js" defer></script> -->
+    <!-- <script src="scripts/directorynav.js" defer></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
+        <div>
+            <div class="logo-div">
+                <div >
+                <img src="images/logo.svg" alt="logo image of Port Harcourt chamber of Commerce"
+                width="60" height="auto" loading="lazy">
+                </div>
+                <div class="heading">
+                    <h1>Port Harcourt</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="images/halfcircle.svg" alt="shaded circle icon" width="30" height="auto" loading="lazy">
+                </div>
+                <span id="btnBurguer">☰</span>
+            </div>
+        </div>
+        <div>
+        <nav id="navBar">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="directory.html" class="nav-link active">Directory</a>
+          <a href="join.html" class="nav-link">Join</a>
+          <a href="discover.html" class="nav-link">Discover</a>
+        <div class="circle-image">
+            <img src="images/halfcircle.svg" alt="shaded circle icon" width="20" height="auto" loading="lazy">
+        </div>
+        </nav>
+        </div>       
+    </header>
+    <!-- <header>
         <div id="header-top">
             <div id="heading-w-img">
                 <img id="header-img" src="images/logo.svg" width="800" alt="Port Harcourt City Chamber of Commerce Logo" loading="lazy">
@@ -44,7 +91,7 @@
             <a href="#">Join</a>
             <a href="#">Discover</a>
         </nav>
-    </header>
+    </header> -->
 
     <main>
         <h2 id="page-title">&#9135; &nbsp; BUSINESS DIRECTORY &nbsp; &#9135;</h2>

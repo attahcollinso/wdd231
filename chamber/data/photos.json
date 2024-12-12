@@ -1,0 +1,86 @@
+[
+    {
+      "name": "Cubana Shopping Mall",
+      "caption": "This is the latest shopping mall in Portharcourt. Owned by the Billionaire bussineesman Obi Cubana. It has branches in abuja, lagos, and london. If you know 02 arena in London, then you will want to visit Port Harcourt Cubana Shopping mall.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover2"
+    },
+    {
+      "name": "Onne Sea Port",
+      "caption": "Onne Sea Port is an awe inspiring sea port in Port Harcourt. It anchors cargo Ships from all over the country. It is very interesting because of it's busy activities round the clock.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover7"
+    },
+    {
+      "name": "The NLNG Residential Area",
+      "caption": "This is the residential area of the NIgeria Liquified Natural Gas. It's ambient and natural habitat makes it a place to be. It's beauty is better seen that explained.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover6"
+    },
+    {
+      "name": "The great Bonny River",
+      "caption": "The great bonny river that empties into the atlantic ocean. It is the gateway between countries like China, USA, Malaysia etc and Onne Sea Port.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover5"
+    },
+    {
+      "name": "Shoprite",
+      "caption": "This is the south African Shopping Mall that is at the heart of Port harcourt. It is opposite the Nigeria Airforce base, Port Harcourt. It is a market hub and also a recreational center for entertainment and relaxation.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover4"
+    },
+    {
+      "name": "Ogono Land Degradation",
+      "caption": "This is the degradation of land due to oil and gas activities in ogoni land. If you are familiar with Nigeria Politics, you must have heared about Ogoni clean up that have engulfed billions of naira without achieving it's purpose.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover1"
+    },
+    {
+      "name": "The Presidential Hotel",
+      "caption": "This is a five star Hotel that still competes with it's rivals despite it being one of the oldest hotels in nigeria.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover10"
+    },
+    {
+      "name": "Nembe Creek Illegal Refinary",
+      "caption": "This is one of the sites where illegal refining of crude oil is carried out. ironically, it is the places like this that have made fuel and diesel available in nigeria.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover9"
+    },
+    {
+      "name": "NLNG Export Deport",
+      "caption": "This is the export deport for natural gas from the Nigeria Liquified natural gas. It lies side by side with the Bonny river.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover11"
+    },
+    {
+      "name": "Bonny Oil and Gas terminal",
+      "caption": "This is the storage facility for the Nigerian crude oil. It is the terminal point where all the crudes that are drilled in Nigeria are exported to other countries.",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover3"
+    },
+    {
+      "name": "Gas Pipeline Explosion.",
+      "caption": "This is a gas pipeline explossion that still burns till today. The heat that radiates miles away really makes it an interesting scene to behold in Port Harcourt",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover12"
+    },
+    {
+      "name": "Night view of Port Harcourt Pleasure park",
+      "caption": "This is an exquisite center of attraction that is very beautiful. It is filled up all the time with people that love fun and relaxation",
+      "width": 600,
+      "height": 450,
+      "imagefile": "discover13"
+    }
+  ]

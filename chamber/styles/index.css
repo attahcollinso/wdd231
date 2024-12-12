@@ -77,6 +77,14 @@ header nav a {
   text-align: center;
 }
 
+  .nav-link {
+    text-decoration: none;
+}
+
+  .nav-link.active {
+    color: var(--sun);
+}
+
 .circle-image img{
    display: none;
 }
@@ -540,22 +548,6 @@ footer {
 
 .mirror {
     transform: scale(-1, 1);
-}
-
-.active::before {
-    content: "<";
-    padding-right: 1rem;
-}
-
-.active::after {
-    content: ">";
-    padding-left: 1rem;
-}
-
-.selected {
-    border-color: var(--sand-color);
-    color: var(--sand-color);
-    font-weight: 700;
 }
 
 .logo-reel {
@@ -1143,19 +1135,4 @@ aside {
 
 #photo-cards .card:nth-child(n+8) {
     display: none;
-}
-
-@media (min-width: 377px) {
-    #heading-1 {
-        font-size: 1.8rem;
-    }
-
-    #heading-2 {
-        font-size: 1rem;
-    }
-
-    #heading {
-        line-height: 35px;
-    }
-
 }
