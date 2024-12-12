@@ -1140,3 +1140,7 @@ aside {
 #photo-cards .card:nth-child(n+8) {
     display: none;
 }
+
+#photo-cards .cards-section h4{
+    text-align: center;
+}
