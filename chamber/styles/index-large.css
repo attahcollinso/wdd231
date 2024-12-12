@@ -20,6 +20,7 @@
   
     .nav-link.active {
       color: #007bff;
+      text-decoration: underline;
       transition: none;
   }
   
@@ -88,7 +89,7 @@
 }
 
 #cards {
-    display: inline-block;
+    /* display: inline-block; */
     overflow: hidden;
     width: 100%;
     white-space: nowrap;

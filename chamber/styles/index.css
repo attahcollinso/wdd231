@@ -256,7 +256,6 @@ main {
 }
 
 #cards {
-    display: inline-block;
     overflow: hidden;
     width: 100%;
     white-space: nowrap;
@@ -340,6 +339,10 @@ main {
 
 .card-info-card p {
     padding: 20px;
+}
+
+#page-title {
+    text-align: center;
 }
 
 .card-info-card h3, .card-info-card h4, .card-info-card h5  {
