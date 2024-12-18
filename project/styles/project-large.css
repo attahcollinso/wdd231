@@ -1,34 +1,40 @@
 
 @media screen and (min-width: 760px) {
-    
-    .nav-bar ul  {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: larger;
-        padding: 10px; 
-    }
-
-    .nav-bar ul li {
-        margin: 10px ;
-        float: right;
-    }
-
-    .nav-bar ul li.hover {
-        color: teal
-       
-    }
-
-    .nav-bar {
-        display: flex;
-    }
-
-    
-    #btnBurguer {
-    display: none;
-    }
   
+/* -------navigation------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav {
+    display: flex;
+  }  
+
+  .nav-link {
+    text-decoration: none;
+}
+
+  .nav-link.active {
+    text-decoration: underline;
+    transition: none;
+}
+
+  header nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  header span {
+    display: none;
+  }
+
+  .circle {
+      display: none;
+  }
+
     footer {
     display: grid;
     grid-template-columns: 34% 32% 34%;
@@ -228,16 +234,6 @@
     height: 30px;
 }
 
-/* modal */
-
-   /* Style for the gallery */
-   .gallery {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px 0;
-  }
 
   /* Modal Styles */
   #image-modal {

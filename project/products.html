@@ -19,41 +19,49 @@
     <link rel="stylesheet" href="styles/project-large.css">
     <script defer="" src="scripts/cards.js"></script>
     <script defer="" src="scripts/productthankyou.js"></script>
+    <script src="scripts/projectnav.js" defer></script>
+    <script src="scripts/date.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 </head> 
     <body>
-        <nav class="nav-bar">
+        <header>
             <div>
                 <div class="logo-div">
                     <div >
                     <img src="images/attaco.webp" alt="logo image of Port Harcourt chamber of Commerce"
-                    width="60" height="60" loading="lazy">
+                    width="80" height="80" loading="lazy">
                     </div>
                     <div class="heading">
-                        <h2>Attah-Co Wears</h2>
+                        <h1>Attah-CO Wears</h1>
                         <p>Quality-Store</p>
                     </div>
                 </div>
-                <span id="btnBurguer">☰</span>
+                <div>
+                    <div class="circle">
+                        <img src="images/halfcircle.svg" alt="shaded circle icon" width="30" height="30" loading="lazy">
+                    </div>
+                    <span id="btnBurguer">☰</span>
+                </div>
             </div>
-        
-            <ul>
-                <li><a href="index.html" class="nav-link " data-page="home">Home</a></li>
-                <li><a href="products.html" class="nav-link active" data-page="products">Products</a></li>
-                <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
-            <li><a href="services.html" class="nav-link" data-page="checkout">Services</a></li>
-
-            </ul>
-            
-        </nav>
-
-    
-        <header>
-            <h1>Products</h1>
+            <div>
+            <nav id="navBar">
+              <a href="index.html" class="nav-link " data-page="home">Home</a>
+              <a href="products.html" class="nav-link active " data-page="home">Products</a>
+              <a href="checkout.html" class="nav-link " data-page="home">Checkout</a>
+              <a href="services.html" class="nav-link " data-page="home">Services</a>
+            <div class="circle-image">
+                <img src="images/halfcircle.svg" alt="shaded circle icon" width="20" height="20" loading="lazy">
+            </div>
+            </nav>
+            </div>       
         </header>
     
+        <div id="header">
+            <p>Our Products</p>
+        </div>
+
         <main>
       
             <section id="products">
@@ -90,25 +98,25 @@
                         </label>
         
                         <label class="input-title">Select Products:
-                            <select id="membership" name="membership" aria-label="Select membership level" required multiple>
+                            <select id="membership" name="membership" aria-label="Select membership level" required>
                                 <option value="" label="select product" selected disabled>Select Products &#9662;</option>
                                 <option value="Black Nike Cancas">Black Nike Canvas</option>
                                 <option value="Casual Watch">Casual Watch</option>
                                 <option value="Designner Loffers">Designer Loffers</option>
-                                <option value="Gold">Designer Long Caftan</option>
-                                <option value="Non-Profit">Designer Senator</option>
-                                <option value="Bronze">Designer Watch</option>
-                                <option value="Silver">Designer Loffers</option>
-                                <option value="Gold">Gold Plated Watch</option>
-                                <option value="Non-Profit">Italian Coperate Shoe</option>
-                                <option value="Bronze">Ladies Senator</option>
-                                <option value="Silver">Ladies Top and Jean</option>
-                                <option value="Gold">London Top and Jean</option>
-                                <option value="Non-Profit">Sports Loffers</option>
-                                <option value="Bronze"> Unisex Casual Shoe</option>
-                                <option value="Silver">Stock Senator</option>
-                                <option value="Gold">Switz Swatch</option>
-                                <option value="Silver">Vietnam Android Watch</option>
+                                <option value="Designer Long Caftan">Designer Long Caftan</option>
+                                <option value="Designer Senator">Designer Senator</option>
+                                <option value="Designer Watch">Designer Watch</option>
+                                <option value="Black Designer loffers">Black Designer Loffers</option>
+                                <option value="Gold plated watch">Gold Plated Watch</option>
+                                <option value="Italian coperate Shoe">Italian Coperate Shoe</option>
+                                <option value="Ladies senator">Ladies Senator</option>
+                                <option value="Ladies Top and Jean">Ladies Top and Jean</option>
+                                <option value="London Top and Jean">London Top and Jean</option>
+                                <option value="Sports loffers">Sports Loffers</option>
+                                <option value="Unisex casual shoe"> Unisex Casual Shoe</option>
+                                <option value="Stock Senator">Stock Senator</option>
+                                <option value="Switz Swatch">Switz Swatch</option>
+                                <option value="Vietnam Android Watch">Vietnam Android Watch</option>
                             </select>
                         </label>
         
@@ -120,7 +128,7 @@
         
                         <input type="hidden" id="timestamp" name="timestamp" value="">
         
-                        <input type="submit" id="submit-button" value="Place Your Order" aria-label="Place Your Order">
+                        <input type="submit" id="submit-button" value="Place Your Order" aria-label="Apply for Membership">
                     </fieldset>
                 </form>
 

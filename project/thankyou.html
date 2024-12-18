@@ -9,38 +9,45 @@
     <link rel="stylesheet" href="styles/project-large.css">
     <script defer="" src="scripts/thankyou.js"></script>
     <script defer="" src="scripts/join.js"></script>
-    
-
+    <script src="scripts/projectnav.js" defer></script> 
+    <script src="scripts/date.js" defer></script>  
 </head>
 <body>
-    <nav class="nav-bar">
+    <header>
         <div>
             <div class="logo-div">
                 <div >
                 <img src="images/attaco.webp" alt="logo image of Port Harcourt chamber of Commerce"
-                width="60" height="60" loading="lazy">
+                width="80" height="80" loading="lazy">
                 </div>
                 <div class="heading">
-                    <h1>Attah-Co Wears</h1>
+                    <h1>Attah-CO Wears</h1>
                     <p>Quality-Store</p>
                 </div>
             </div>
-            <span id="btnBurguer">☰</span>
+            <div>
+                <div class="circle">
+                    <img src="images/halfcircle.svg" alt="shaded circle icon" width="30" height="30" loading="lazy">
+                </div>
+                <span id="btnBurguer">☰</span>
+            </div>
         </div>
-    
-        <ul>
-            <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
-            <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
-            <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
-            <li><a href="services.html" class="nav-link" data-page="checkout">Services</a></li>
-        </ul>
-        
-    </nav>
-
-    <header>
-        <p>Thank You For Choosing Our Services</p>
+        <div>
+        <nav id="navBar">
+          <a href="index.html" class="nav-link active" data-page="home">Home</a>
+          <a href="products.html" class="nav-link " data-page="home">Products</a>
+          <a href="checkout.html" class="nav-link " data-page="home">Checkout</a>
+          <a href="services.html" class="nav-link " data-page="home">Services</a>
+        <div class="circle-image">
+            <img src="images/halfcircle.svg" alt="shaded circle icon" width="20" height="20" loading="lazy">
+        </div>
+        </nav>
+        </div>       
     </header>
 
+    <div id="header">
+        <p>Thank You for Choosing Our Services</p>
+    </div>
 
 <main>
     <section class="logo-reel">
