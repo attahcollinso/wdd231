@@ -1,12 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Confirmation | E-Commerce</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Home | E-Commerce</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script defer="" src="scripts/newarrival.js"></script>
+
 </head>
 <body>
+
+    <nav class="nav-bar">
+        <div>
+            <div class="logo-div">
+                <div >
+                <img src="images/attaco.webp" alt="logo image of Port Harcourt chamber of Commerce"
+                width="60" height="60" loading="lazy">
+                </div>
+                <div class="heading">
+                    <h2>Attah-Co Wears</h2>
+                    <p>Quality-Store</p>
+                </div>
+            </div>
+            <span id="btnBurguer">☰</span>
+        </div>
+    
+        <ul>
+            <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+            <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
+            <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
+            <li><a href="services.html" class="nav-link" data-page="checkout">Services</a></li>
+        </ul>
+    </nav>
     <header>
         <h1>Order Confirmation</h1>
     </header>
@@ -17,9 +44,37 @@
             <div id="order-details"></div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 E-Commerce</p>
+        <div id="contact">
+            <p class="bold"><img class="crane" src="images/attaco.webp" alt="chamber Logo" width="16" height="16" loading="lazy"> &nbsp;</p>
+            <p class="bold">Attah-Co Wears Quality-Store</p>    
+            <p>Emmanuel Plaza</p>
+            <p>#2 Enarco Road</p>
+            <p>Pipeline Rumukwurusi</p>
+            <P>Port Harcourt</P>
+            <p>contact@attahcowears.com</p>
+            <p>+234 906 915 3943</p>
+        </div>
+        <div class="socials-logos">
+            <p>Welcome</p>
+            <p>Thank you for shopping with us</p>
+            <p>If there is any other thing you want from us</p>
+            <p>please drop a mail:</p>
+            <p> qualitywears@attahcowears.com</p>
+            <img class="socials" src="images/facebookicon.webp" alt="FaceBook" width="50" height="50" loading="lazy" >
+            <img class="socials" src="images/twittericon.webp" alt="Twitter" width="50" height="50" loading="lazy" >
+            <img class="socials" src="images/instagramicon.webp" alt="Instagram" width="50" height="50" loading="lazy">
+        </div>
+        <div id="info">
+            <p>Our Other Services Include:</p>
+            <p>Social Media Management</p>
+            <p>Real Estate Agent</p>
+            <p>Marriage Councilling</p>
+            <p>Trado Medicals</p>
+            <p><span id="copyright"></span> @Attah-Co Wears Quality-Store
+            <p id="lastModified" class="highlight"></p>
+            
+        </div>
     </footer>
 
     <script>

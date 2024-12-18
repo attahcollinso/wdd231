@@ -34,7 +34,7 @@ function formatTimestamp(timestamp) {
 
 const showInfo = document.querySelector('#results');
 showInfo.innerHTML = `
-<h2>Thank you for your application</h2>
+<h2>Thank You for Your Patronage</h2>
 <table>
 <tr>
     <td>Application for:</td>
@@ -49,11 +49,11 @@ showInfo.innerHTML = `
     <td><a href="mailto:${show("email")}?subject=Al%20Reem%20Chamber%20of%20Commerce,%20${show("membership")}%20Membership%20Application%20for%20${show("org-name")}">${show("email")}</a></td>
 </tr>
 <tr>
-    <td>Your business / organisation's name:</td>
+    <td>Your Address:</td>
     <td>${show("org-name")}</td>
 </tr>
 <tr>
-    <td>Membership level selected:</td>
+    <td>Service Selected:</td>
     <td>${show("membership")}</td>
 </tr>
 <tr>

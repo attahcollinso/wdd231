@@ -17,12 +17,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/project-large.css">
+    <script defer="" src="scripts/date.js"></script>
+    <script defer="" src="scripts/newarrival.js"></script>
+    <script defer="" src="scripts/products.js"></script>
     <script defer="" src="scripts/cards.js"></script>
-    <script defer="" src="scripts/productthankyou.js"></script>
+    <script defer="" src="scripts/modal.js"></script>
+    <script defer="" src="scripts/thankyou.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-</head> 
+</head>
     <body>
         <nav class="nav-bar">
             <div>
@@ -41,9 +45,9 @@
         
             <ul>
                 <li><a href="index.html" class="nav-link " data-page="home">Home</a></li>
-                <li><a href="products.html" class="nav-link active" data-page="products">Products</a></li>
+                <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
                 <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
-            <li><a href="services.html" class="nav-link" data-page="checkout">Services</a></li>
+            <li><a href="services.html" class="nav-link active" data-page="checkout">Services</a></li>
 
             </ul>
             
@@ -51,106 +55,84 @@
 
     
         <header>
-            <h1>Products</h1>
+            <h1>Our Other Services</h1>
         </header>
     
-        <main>
-      
-            <section id="products">
-                <h2>Available Products</h2>
-            </section>
 
-            <div id="cards"></div>
-            <table id="table-view"></table>
-
-            
-
-            <div id="join-main">
-                <form method="get" action="productthankyou.html" class="aform">
-                    <h2 id="form-heading">Select Your Products</h2>
+            <main id="join-main">
+                <form method="get" action="thankyou.html" class="aform">
+                    <h2 id="form-heading">Book Our Services</h2>
                     <fieldset>
-                        <label class="input-title">Name:
+                        <!-- First Name -->
+                        <label class="input-title">First Name:
                             <input type="text" id="first-name" name="first-name" title="Enter your first name" aria-label="Enter your first name"
                                autocomplete="given-name" required>
                         </label>
-    
-                        <label class="input-title">Email:
+        
+                        <!-- Last Name -->
+                        <label class="input-title">Last Name:
+                            <input type="text" id="last-name" name="last-name" title="Enter your last name" aria-label="Enter your last name"
+                               autocomplete="family-name" required>
+                        </label>
+        
+                        <!-- Email Address -->
+                        <label class="input-title">Email Address:
                         <input type="email" id="email" name="email" title="Enter a valid email address" aria-label="Enter a valid email address"
                                autocomplete="email" placeholder="example@example.com" required>
                         </label>
         
-                        <label class="input-title">Phone:
+                        <!-- Mobile Phone -->
+                        <label class="input-title">Mobile Number:
                         <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" aria-label="Enter your mobile phone number"
                                 autocomplete="tel" required>
                         </label>
         
-                        <label class="input-title">Waybill Address:
-                            <input type="text" id="org-name" name="org-name" title="Enter your business/organization's name" aria-label="Enter your business/organization's name"
-                                autocomplete="organization" required>
-                        </label>
-        
-                        <label class="input-title">Select Products:
-                            <select id="membership" name="membership" aria-label="Select membership level" required multiple>
-                                <option value="" label="select product" selected disabled>Select Products &#9662;</option>
-                                <option value="Black Nike Cancas">Black Nike Canvas</option>
-                                <option value="Casual Watch">Casual Watch</option>
-                                <option value="Designner Loffers">Designer Loffers</option>
-                                <option value="Gold">Designer Long Caftan</option>
-                                <option value="Non-Profit">Designer Senator</option>
-                                <option value="Bronze">Designer Watch</option>
-                                <option value="Silver">Designer Loffers</option>
-                                <option value="Gold">Gold Plated Watch</option>
-                                <option value="Non-Profit">Italian Coperate Shoe</option>
-                                <option value="Bronze">Ladies Senator</option>
-                                <option value="Silver">Ladies Top and Jean</option>
-                                <option value="Gold">London Top and Jean</option>
-                                <option value="Non-Profit">Sports Loffers</option>
-                                <option value="Bronze"> Unisex Casual Shoe</option>
-                                <option value="Silver">Stock Senator</option>
-                                <option value="Gold">Switz Swatch</option>
-                                <option value="Silver">Vietnam Android Watch</option>
+                                <label class="input-title">Services Available:
+                            <select id="membership" name="membership" aria-label="Select membership level" required>
+                                <option value="" label="select product" selected>Select a service... &#9662;</option>
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="Real Estate Agent">Real Estate Agent</option>
+                                <option value="Trado Medical">Trado Medicals</option>
+                                <option value="Marriage Councilling">Marriage Councilling</option>
                             </select>
                         </label>
         
-                        <label class="input-title">Size and Color: <br>
+                     <label class="input-title">Situation Description: <br>
                             <textarea id="description" name="description" rows="4" cols="50"
                                     title="Provide a description of your business or organization" aria-label="Provide a description of your business or organization">
                             </textarea>
                         </label>
         
+                        <!-- Timestamp -->
                         <input type="hidden" id="timestamp" name="timestamp" value="">
         
-                        <input type="submit" id="submit-button" value="Place Your Order" aria-label="Place Your Order">
+                        <!-- Submit button -->
+                        <input type="submit" id="submit-button" value="Apply for Our Services" aria-label="Apply for Membership">
                     </fieldset>
                 </form>
 
-                <div class="hide-membership">
                 <section id="membership-cards" class="cards-section">
                     <h2 id="levels-h2">Available Services</h2>
                     <section class="card" id="np-card">
-                        <h2>Black Nike Canvas</h2>
+                        <h2>Social Media Management</h2>
                         <button id="np-info" class="learn-more bold">Details</button>
                     </section>
                     <section class="card" id="bronze-card">
-                        <h2>Casual Watch</h2>
+                        <h2>Real Estate Agent</h2>
                         <button id="bronze-info" class="learn-more bold">Details</button>
                     </section>
                     <section class="card" id="silver-card">
-                        <h2>Designer Loffers</h2>
+                        <h2>Trado Medicals</h2>
                         <button id="silver-info" class="learn-more bold">Details</button>
                     </section>
                     <section class="card" id="gold-card">
-                        <h2>Designer Long Caftan</h2>
+                        <h2>Marriage Councilling</h2>
                         <button id="gold-info" class="learn-more bold">Details</button>
                     </section>
                 </section>
                 <dialog id="membership-info"></dialog>
-                </div>
-        
-            </div>
-        
-
         </main>
+
         <footer>
             <div id="contact">
                 <p class="bold"><img class="crane" src="images/attaco.webp" alt="chamber Logo" width="16" height="16" loading="lazy"> &nbsp;</p>
@@ -183,6 +165,14 @@
                 
             </div>
         </footer>
+    
+    
+        <div id="product-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modal-details"></div>
+            </div>
+        </div>
     </body>
     </html>
     

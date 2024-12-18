@@ -1,47 +1,130 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | E-Commerce</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AttahCo-Stores | E-commerce Store</title>
+    <meta name="description" content="A responsive web layout of my wdd231 project with products, checkout, and services page which also includes a thank you page and order cornfirmation called AttahCo-Stores">
+    <meta name="author" content="Attah Collins Onyebuchi">
+    <meta property="og:title" content="AttahCo-Stores">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://attacollinso.github.io/wdd231/project/images/attaco.webp">
+    <meta property="og:url" content="https://attacollinso.github.io/wdd231/project/index.html">
+    <link rel="icon" href="Footer.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/newarrival.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
+        <div>
+            <div class="logo-div">
+                <div >
+                <img src="images/attaco.webp" alt="logo image of Port Harcourt chamber of Commerce"
+                width="60" height="60" loading="lazy">
+                </div>
+                <div class="heading">
+                    <h1>Attah-Co Wears</h1>
+                    <p>Quality-Store</p>
+                </div>
+            </div>
+            <span id="btnBurguer">☰</span>
+        </div>
+    
         <ul>
             <li><a href="index.html" class="nav-link active" data-page="home">Home</a></li>
             <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
             <li><a href="checkout.html" class="nav-link" data-page="checkout">Checkout</a></li>
+            <li><a href="services.html" class="nav-link" data-page="checkout">Services</a></li>
         </ul>
+        
     </nav>
 
     <header>
-        <h1>Welcome to Our Store</h1>
-        <p>Explore amazing products</p>
+        <p>Home</p>
     </header>
+    <h2>Welcome to Our Store</h2>
+    <h3>Explore our amazing products</h3>
 
-    <main>
-        <section id="weather">
-            <h2>Weather Forecast</h2>
-            <div id="weather-info">Loading...</div>
-        </section>
+    <main id="discover-main">
+        <h2 id="discover-h2">Stock and Quality New Arrivals</h2>
+        <aside>
+            <section class="card" id="visit-card">
+                <h3 id="visit-message">Mekaa!</h3>
+            </section>
+            <button id="call-to-action" onclick="location.href='products.html'">Click To Buy Products</button>
+            <section class="card aside-card">
+                <h3>Top Attractions</h3>
+                <p>Explore our exciting and interesting New Products for your Christmas Celebration:</p>
+                <ul class="discover-list">
+                    <li><strong>Shoes:</strong> Quality Leather Shoes. Both Men and Ladies Coperate and Casual Wear Shoes are all in Stock.</li>
+                    <li><strong>Clothes:</strong>We have assorted Vietnam and Turkey Wears That are Stock all through. You can not see your wears on someone else.</li>
+                    <li><strong>Furnitures:</strong>We have exquisite furnitures that are made from ceder wood. Our luxury furnitures are Worls Class</li>
+                    <li><strong>Kitchen Utensils: </strong> Have a exciting feel of Classical kitchen Utensils that are quality without compromise.</li>
+                </ul>
 
-        <section id="cta">
-            <h2>Shop Now</h2>
-            <button onclick="window.location.href='products.html'">View Products</button>
+            </section>
+            <section class="card aside-card">
+                <h3>Upcoming Events</h3>
+                <p>Do not miss these exciting events happening at our Store:</p>
+                <ul class="discover-list">
+                    <li><strong>Black Friday Sales:</strong> December 21, featuring 40% discount sales on all our Products.</li>
+                    <li><strong>Outdoor Music Nights:</strong> December 24 - 31, 6:30 PM Daily.</li>
+                    <li><strong>Father Christmas:</strong> December 25. Father Christmas will shower our customers with Christmas gifts and hamber baskets.</li>
+                </ul>
+            </section>
+            <button id="action-call" onclick="location.href='products.html'">Click To Buy Products</button>
+         
+        </aside>
+        <section id="photo-cards" class="cards-section">
+            <h4>loading...</h4>
         </section>
+      
     </main>
+    
+    <section class="logo-reel">
+        <h4>loading...</h4>
+    </section>
 
     <footer>
-        <p>&copy; 2024 E-Commerce</p>
+        <div id="contact">
+            <p class="bold"><img class="crane" src="images/attaco.webp" alt="chamber Logo" width="16" height="16" loading="lazy"> &nbsp;</p>
+            <p class="bold">Attah-Co Wears Quality-Store</p>    
+            <p>Emmanuel Plaza</p>
+            <p>#2 Enarco Road</p>
+            <p>Pipeline Rumukwurusi</p>
+            <P>Port Harcourt</P>
+            <p>contact@attahcowears.com</p>
+            <p>+234 906 915 3943</p>
+        </div>
+        <div class="socials-logos">
+            <p>Welcome</p>
+            <p>Thank you for shopping with us</p>
+            <p>If there is any other thing you want from us</p>
+            <p>please drop a mail:</p>
+            <p> qualitywears@attahcowears.com</p>
+            <img class="socials" src="images/facebookicon.webp" alt="FaceBook" width="50" height="50" loading="lazy" >
+            <img class="socials" src="images/twittericon.webp" alt="Twitter" width="50" height="50" loading="lazy" >
+            <img class="socials" src="images/instagramicon.webp" alt="Instagram" width="50" height="50" loading="lazy">
+        </div>
+        <div id="info">
+            <p>Our Other Services Include:</p>
+            <p>Social Media Management</p>
+            <p>Real Estate Agent</p>
+            <p>Marriage Councilling</p>
+            <p>Trado Medicals</p>
+            <p><span id="copyright"></span> @Attah-Co Wears Quality-Store
+            <p id="lastModified" class="highlight"></p>
+            
+        </div>
     </footer>
-
-    <script src="js/products.js" type="module"></script>
-    <script src="js/modal.js" type="module"></script>
-    <script src="js/main.js" type="module"></script>
-    <script src="js/confirm.js" type="module"></script>
-    <script src="js/weather.js" type="module"></script>
 
 </body>
 </html>

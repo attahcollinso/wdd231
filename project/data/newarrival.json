@@ -1,0 +1,87 @@
+
+[
+    {
+      "name": "Up and Down",
+      "caption": "Vietnam White and Jeans. #18,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "pro1.webp"
+    },
+    {
+      "name": "Designer Shirt",
+      "caption": "Red Designer's Shirt. #30,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival2.webp"
+    },
+    {
+      "name": "Designer Senator",
+      "caption": "Designer's Senator Caftan. #99,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival3.webp"
+    },
+    {
+      "name": "London Wear",
+      "caption": "London Wear Up and Down. #45,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival4.webp"
+    },
+    {
+      "name": "Italy Shoe",
+      "caption": "Italian Mokasin Shoe. #108,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival5.webp"
+    },
+    {
+      "name": "White Loffer",
+      "caption": "Pure Leather Loffers. #35,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival6.webp"
+    },
+    {
+      "name": "Trainers",
+      "caption": "White Pure Leather Trainers. #35,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival7.webp"
+    },
+    {
+      "name": "Watch",
+      "caption": "Vietnam Switz Watch. #18,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival8.webp"
+    },
+    {
+      "name": "Illuminator Watch",
+      "caption": "Illuminor Vietnam Watch. #15,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival9.webp"
+    },
+    {
+      "name": "Shoe",
+      "caption": "Black Corporate Shoe. #70,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival10.webp"
+    },
+    {
+      "name": "Android Watch",
+      "caption": "Android Wrist Watch. #25,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival11.webp"
+    },
+    {
+      "name": "Leather Watch",
+      "caption": "Vietnam Black Swatch. #18,000.00",
+      "width": 600,
+      "height": 450,
+      "imagefile": "arrival12.webp"
+    }
+  ]
